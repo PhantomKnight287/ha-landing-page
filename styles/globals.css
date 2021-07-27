@@ -1,16 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Montserrat&display=swap');
+
 html,
 body {
-  padding: 0;
+  padding: 1.5em;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #2e3440;
+  color: #eceff4;
+  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+a, a:visited {
+  color: #23b0ff;
 }

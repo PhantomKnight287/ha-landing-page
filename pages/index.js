@@ -59,7 +59,7 @@ export default function Home() {
         <a 
           href="https://github.com/hackarmour" 
           target="_blank" 
-          rel="noopener"
+          rel="noopener noreferrer"
         >Hack Armour</a>
         . All rights reserved.
       </footer>

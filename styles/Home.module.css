@@ -10,9 +10,20 @@
 }
 
 .footer {
-  position: absolute;
+  position: inherit;
   bottom: 0;
   color: #E5E9F0;
   font-size: 1rem;
   padding: 2rem 1rem;
+}
+.heading{
+  font-family: "Oswald",sans-serif;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+
+.links{
+  font-size: 1rem;
+  font-family: "Montserrat";
+  padding: 0 0.5rem;
 }

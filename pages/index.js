@@ -10,8 +10,8 @@ export default function Home() {
           name="description"
           content="Hack Armour is a community of hackers, devs and creative people who aim to create a community platform where everyone can learn and mingle with the community accessibly."
         />
-        <meta 
-          name="viewport" 
+        <meta
+          name="viewport"
           content="width=device-width, initial-scale=1"
         />
 
@@ -46,19 +46,39 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://github.com/hackarmour">Hack Armour</a>!
         </h1>
-
+        <p className={styles.heading}>
+         {'Who are we?'}
+        </p>
         <p className={styles.description}>
           Hack Armour is a community of hackers and devs focused on creating a
           platform where everyone can learn tech stuff and mingle with the
           community accessibly.
         </p>
+      <p className={styles.description}>
+        Currently we are focusing on community building, and our future goal includes to make a infosec search engine to search relevant stuff about cybersecurity and hacking.
+      </p>
+      <p className={styles.heading}>
+        The Strategical Approach
+      </p>
+      <p className={styles.description}>
+        We have already done some pre-planning about the infosec search engine and the practical approach about it. The todo and complete strategy can be found on our discord server.
+      </p>
+      <p className={styles.links}>
+        Join Our <a href='https://discord.gg/DtQkZkUTuF'>Discord Server</a>
+      </p>
+      <p className={styles.heading}>
+        {'How to Contribute?'}
+      </p>
+      <p className={styles.description}>
+        For a guide on How to contribute Click <a href="https://thebirdie.codes/creating-a-pr-on-github">Here</a>.
+      </p>
       </main>
 
       <footer className={styles.footer}>
         © 2021&nbsp;
-        <a 
-          href="https://github.com/hackarmour" 
-          target="_blank" 
+        <a
+          href="https://github.com/hackarmour"
+          target="_blank"
           rel="noopener noreferrer"
         >Hack Armour</a>
         . All rights reserved.

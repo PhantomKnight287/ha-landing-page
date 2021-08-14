@@ -66,12 +66,6 @@ export default function Home() {
       <p className={styles.links}>
         Join Our <a href='https://discord.gg/DtQkZkUTuF'>Discord Server</a>
       </p>
-      <p className={styles.heading}>
-        {'How to Contribute?'}
-      </p>
-      <p className={styles.description}>
-        For a guide on How to contribute Click <a href="https://thebirdie.codes/creating-a-pr-on-github">Here</a>.
-      </p>
       </main>
 
       <footer className={styles.footer}>
